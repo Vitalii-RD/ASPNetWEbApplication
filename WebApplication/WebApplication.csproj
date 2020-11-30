@@ -1,0 +1,45 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Migrations\20201129234833_IdentityAdded.cs" />
+    <Compile Remove="Migrations\20201129234833_IdentityAdded.Designer.cs" />
+    <Compile Remove="Migrations\20201130000748_identity.cs" />
+    <Compile Remove="Migrations\20201130000748_identity.Designer.cs" />
+    <Compile Remove="Migrations\20201130001215_identity1.cs" />
+    <Compile Remove="Migrations\20201130001215_identity1.Designer.cs" />
+    <Compile Remove="Migrations\20201130194735_newdata.cs" />
+    <Compile Remove="Migrations\20201130194735_newdata.Designer.cs" />
+    <Compile Remove="Migrations\20201130195618_newphotos.cs" />
+    <Compile Remove="Migrations\20201130195618_newphotos.Designer.cs" />
+    <Compile Remove="Migrations\20201130200222_newphotos1.cs" />
+    <Compile Remove="Migrations\20201130200222_newphotos1.Designer.cs" />
+    <Compile Remove="Migrations\20201130202409_add4el.cs" />
+    <Compile Remove="Migrations\20201130202409_add4el.Designer.cs" />
+    <Compile Remove="Migrations\20201130203015_init.cs" />
+    <Compile Remove="Migrations\20201130203015_init.Designer.cs" />
+    <Compile Remove="Migrations\20201130203425_new.cs" />
+    <Compile Remove="Migrations\20201130203425_new.Designer.cs" />
+    <Compile Remove="Migrations\20201130205221_addnew.cs" />
+    <Compile Remove="Migrations\20201130205221_addnew.Designer.cs" />
+    <Compile Remove="Migrations\20201130205339_new.cs" />
+    <Compile Remove="Migrations\20201130205339_new.Designer.cs" />
+    <Compile Remove="Migrations\20201130205544_new.cs" />
+    <Compile Remove="Migrations\20201130205544_new.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="3.1.10" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="3.1.10" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.10" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.10">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.1.4" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,14 @@
+﻿@model HomeViewModel
+
+<partial name="_Carousel">
+
+<h2>Materials of the week</h2>
+<h4>Our weekly selection - just for you!</h4>
+
+<div class="row">
+
+    @foreach (var material in Model.MaterialsOfTheWeek)
+    {
+        <partial name="_MaterialCard" model="material" />
+    }
+</div>
